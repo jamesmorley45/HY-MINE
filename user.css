@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #06021b;
+}
+.container{
+    width: 100%;
+    min-width: 350px;
+    max-width: 400px;
+    height: 100vh;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #06021b;
+}
+.container{
+    width: 100%;
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.container .content header h1{
+    color:   #e91e63;
+    text-align: center;
+    background: rgb(58, 49, 49);
+}
+.top-back{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#e91e63,blue);
+    display: flex;
+}
+.top-back .circle{
+    width: 90px;
+    height: 90px;
+    background: blue;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.top-back .circle i{
+    font-size: 60px;
+    color: white;
+}
+.top-text{
+    width: 45%;
+    height: 100px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.top-text .code{
+    font-size: 20px;
+    color: lightgrey;
+}
+.top-back .bell{
+    width: 30%;
+    height: 90px;
+    background: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.top-back .bell i{
+    font-size: 40px;
+    color: white;
+}
+ .card{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: blue;
+}
+ .card button{
+    width: 90%;
+    text-align: center;
+    display: block;
+    height: 50px;
+    border-radius: 15px;
+    background: white;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.card button span{
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.active {
+    color: green;
+    background: transparent;
+}
+.text-balance{
+    width: 100%;
+    height: 40px;
+    background: #9188bd;
+    text-align: center;
+}
+.balance p{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.balance span{
+    color: #e91e63;
+    font-size: 20px;
+}
+.balance span2{
+    color: silver;
+    font-size: 25px;
+}
+.deposit-withdraw{
+    width: 1005;
+    height: 60px;
+    background: #9188bd;
+    display: flex;
+    justify-content: space-between;
+}
+.deposit p{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.deposit span{
+    color: #e91e63;
+  font-size: 20px;
+}
+.deposit span2{
+    color: silver;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.withdraw span{
+    color: #e91e63;
+  font-size: 20px;
+}
+.withdraw span2{
+    color: silver;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.withdraw p{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.my-business{
+    width: 100%;
+    height: 200px;
+    background: #423196;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.my-business h3{
+    text-align: center;
+    font-size: 20px;
+}
+.team{
+  width: 100%;
+  height: 70px;
+  background: rgb(92, 87, 87);
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.commission{
+    width: 100%;
+    height: 70px;
+    background: rgb(92, 87, 87);
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .team .icon{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .team{
+    display: flex;
+  }
+  .head{
+    margin-left: 10px;
+    display: flex;
+  }
+  .team .icon{
+    margin-top: 10px;
+  }
+  h2{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .commission .icon{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .commission{
+    display: flex;
+  }
+  .head1{
+    margin-left: 10px;
+    display: flex;
+    font-size: 20px;
+  }
+  .commission .icon{
+    margin-top: 10px;
+  }
+  .arrow1{
+    display: flex;
+    align-items: center;
+  }
+  .arrow1 i{
+    margin-left: 180px;
+    font-size: 40px;
+    color: white;
+  }
+  .arrow2{
+    display: flex;
+    align-items: center;
+  }
+  .arrow2 i{
+    margin-left: 135px;
+    font-size: 40px;
+    color: white;
+  }
+
+  
+.navbar{
+    width: 100%;
+    height: 40px;
+    background: #e91e63;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar h2{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 140px;
+}
+.navbar .icon{
+    color: white;
+    display: flex;
+  font-size: 20px;  
+  justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+  margin-right: 90px;
+  color: white;
+}
+.navigation {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 450px;
+    min-width: 350px;
+    height: 70px;
+    background: linear-gradient(45deg, #2196f3, #e91e63);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.navigation ul {
+    display: flex;
+    width: 350px;
+}
+.navigation ul li {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    z-index: 1;
+}
+.navigation ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+a:is(:link, :active, :visited)#act{
+    color: white;
+    background: black;
+}
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+}
+.navigation ul li.active a .icon {
+    transform: translateY(-32px);
+}
+.navigation ul li a .text {
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    font-size: .75em;
+    letter-spacing: .05em;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .5s;
+}
+.navigation ul li.active a .text {
+    opacity: 1;
+    transform: translateY(10px);
+}
+.navigation ul li a .circle {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1.8px solid #fff;
+    transform: translateY(-37px) scale(0);
+}
+.navigation ul li.active a .circle {
+    transition: .5s;
+    transition-delay: .5s;
+    transform: translateY(-37px) scale(1);
+}
+.indicator {
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg, #2196f3, #e91e63);
+    border: 6px solid #06021b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.indicator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 1px -10px 0 #06021b;
+}
+.indicator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -1px -10px 0 #06021b;
+}
+.navigation ul li:nth-child(1).active~.indicator {
+    transform: translateX(calc(70px * 0));
+}
+.navigation ul li:nth-child(2).active~.indicator {
+    transform: translateX(calc(70px * 1));
+}
+.navigation ul li:nth-child(3).active~.indicator {
+    transform: translateX(calc(70px * 2));
+}
+.navigation ul li:nth-child(4).active~.indicator {
+    transform: translateX(calc(70px * 3));
+}
+.navigation ul li:nth-child(5).active~.indicator {
+    transform: translateX(calc(70px * 4));
+}  
+.about{
+    width: 100%;
+    height: 480px;
+    background: #e91e63;
+    text-align: center;
+}
+.about pre{
+    color: white;
+    font-size: 30px;
+}
+.about p{
+    font-size: 15px;
+}

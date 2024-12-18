@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HY MINE</title>
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <header><h1>USER</h1></header>
+            
+          <div class="top-back">
+            <div class="circle"><i class="fa-regular fa-user"></i></div>
+            <div class="top-text"><p>123.....4589</p><p class="code">(QDRASK)</p></div>
+            <div class="bell" id="active"><i class="fa-regular fa-bell"></i></div>
+          </div>
+          <div class="card"><button>No bank card <span>,Add bank card</span></button></div>
+  
+   <div class="text-balance">
+    <div class="balance"><span2>$</span2><span>300</span><p>Balance</p></div>
+   </div>
+<div class="deposit-withdraw">
+    <div class="deposit"><span2>$</span2><span>0</span><p>Deposit</p></div>
+ <div class="withdraw"><span2>$</span2><span>200</span><p>Withdrawable</p></div>
+</div>
+<div class="my-business"><h3>My Business</h3>
+<div class="team"><div class="icon"><i class="fa-solid fa-people-group"></i></div><h2 class="head">team</h2>
+<div class="arrow1"><a href="invite.html"><i class="fa-solid fa-arrow-right"></i></a></div>
+</div>
+<div class="commission"><div class="icon"><i class="fa-solid fa-coins"></i></div><h2 class="head1">Commission</h2>
+<div class="arrow2"><a href="invite.html"><i class="fa-solid fa-arrow-right"></i></a></div>
+</div>
+</div>
+    <div class="navigation">
+        <ul>
+            <li class="list">
+                <a href="index.html">
+                    <span class="icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="text">Home</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="about.html">
+                    <span class="icon"><i class="fa-solid fa-book"></i></span>
+                    <span class="text">About</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list  active">
+                <a href="#">
+                    <span class="icon"><i class="fa-regular fa-address-card"></i></span>
+                    <span class="text">User</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="contact.html">
+                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                    <span class="text">Contact</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="account.html">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <span class="text">Account</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <script>
+        let bell = document.querySelector("#bell");
+
+    bell.addEventListener('click',()=>{
+        bell.classList.remove('bell');
+        bell.classList.add('active')
+    })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
